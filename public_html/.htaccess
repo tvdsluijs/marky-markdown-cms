@@ -3,6 +3,9 @@
 
     RewriteEngine On
     #RewriteBase /path/to/app
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^/?(.*) https://itheo.nl/$1 [R,L]
+
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [QSA,L]
