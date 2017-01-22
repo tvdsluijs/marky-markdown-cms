@@ -10,3 +10,4 @@ awstats/
 .htpasswd/
 .well-known
 .idea/
+App/Log/development.log
