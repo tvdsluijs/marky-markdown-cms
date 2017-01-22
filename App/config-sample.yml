@@ -1,0 +1,7 @@
+debug: true
+markdownfolder: /Pages
+sitedata:
+  sitename: iTheo
+  sitesubname: To bodly go where no one has gone before
+  analytics: 1234567
+  themename: clean-blog

@@ -1,3 +1,18 @@
+Hi, first let me welcome you on my Marky-MarkDown CMS bitbucket page!
+
+If you want to see the Marky-MarkDown CMS work go to -> http://itheo.nl/
+
+It's a work in progress, like this CMS so bare with me!
+
+I hope you enjoy this CMS, it's never finished but I will make this CMS work to create a small site or blog.
+
+Keywords of this CMS:
+FAST!
+THIN!
+EASY!
+
+So no let's go to the installation part!
+
 # Step 1:
 Go to your site with SSH
 Go into the folder where the public_html folder is (do not go into public_html)
@@ -15,6 +30,19 @@ git fetch
 git checkout -t origin/master
 ~~~
 
+# Step 2
+create a config file in the /App folder, there is a example config (config-sample.yml) that you can use and fill
+out the following fields:
+
+~~~
+debug: False
+markdownfolder: /Pages
+sitedata:
+  sitename: Marky-MarkDown CMS
+  sitesubname: Yeah! No More WordPress
+  analytics: 1234567
+  themename: clean-blog
+~~~
 
 
 To add pages and menu items go to
@@ -30,4 +58,3 @@ Add
 the item.md are the markdown files that contain the page
 Menu items will be
 Home - Secont Page - Third Page
-
