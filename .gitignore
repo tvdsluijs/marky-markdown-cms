@@ -9,3 +9,4 @@ logs/
 awstats/
 .htpasswd/
 .well-known
+.idea/
