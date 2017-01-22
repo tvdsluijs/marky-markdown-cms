@@ -4,6 +4,7 @@
     RewriteEngine On
     #RewriteBase /path/to/app
 
+# if you want HTTPS put this on!
 #    RewriteCond %{HTTPS} !=on
 #    RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
 

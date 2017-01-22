@@ -28,7 +28,7 @@ try {
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../App/Views',
     'twig.options'    => array(
-        'cache' => __DIR__ . '/App/Cache',
+        'cache' => __DIR__ . '/../App/Cache',
     ),
 ));
 

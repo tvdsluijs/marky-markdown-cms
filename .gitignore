@@ -2,6 +2,8 @@ vendor/
 vendor/*
 App/config.yml
 App/Pages/*
+App/Log/development.log
+App/Cache/
 private_html/
 stats/
 public_ftp/
@@ -10,4 +12,3 @@ awstats/
 .htpasswd/
 .well-known
 .idea/
-App/Log/development.log
