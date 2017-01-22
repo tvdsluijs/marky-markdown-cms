@@ -7,10 +7,18 @@
  */
 
 $app->get('/', function() use ($app) {
-    $message = 'homepagessssss';
     $sitedata = $app['config']['sitedata'];
     $sitedata['year'] = $app['year'];
     $menu = $app['menu'];
+
+    $markDownFile = getMarkDownFile("/", $app['menu']);
+
+    $path = $markDownFile;
+
+    $html = new \App\Models\Markdown\Markdown();
+    $html->readMarkdown($path);
+    $message = $html->getHTML();
+
     return $app['twig']->render('homepage.twig', array(
         'message' => $message,
         'sitedata' => $sitedata,
