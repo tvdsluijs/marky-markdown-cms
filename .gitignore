@@ -8,3 +8,4 @@ public_ftp/
 logs/
 awstats/
 .htpasswd/
+.well-known
