@@ -1,0 +1,14 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            {% if message is defined %}
+                {{ message|raw }}
+            {% else %}
+                geen message?
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

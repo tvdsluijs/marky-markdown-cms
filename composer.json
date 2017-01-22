@@ -1,0 +1,9 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "erusev/parsedown": "^1.6",
+        "symfony/yaml": "^3.2",
+        "monolog/monolog": "^1.22",
+        "twig/twig": "^1.31"
+    }
+}

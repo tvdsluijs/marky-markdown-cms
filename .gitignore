@@ -1,0 +1,10 @@
+vendor/
+vendor/*
+App/config.yml
+App/Pages/*
+private_html/
+stats/
+public_ftp/
+logs/
+awstats/
+.htpasswd/
