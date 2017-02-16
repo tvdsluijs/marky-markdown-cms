@@ -13,20 +13,30 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% for m in menu %}
-                    <li>
-                        <a href="{{ m.pathUrl|e }}">{{ m.menuName|e }}</a>
-                    </li>
-                    {% if m.children is defined %}
-                        <ul>
-                            {% for mm in m.children %}
-                                <li>
-                                    <a href="{{ mm.pathUrl|e }}">{{ mm.menuName|e }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                {% endfor %}
+                {% if menu is defined %}
+                    {% for m in menu %}
+                        {% if m.children is defined %}
+                            <li class="dropdown">
+                            <a href="{{ m.pathUrl|e }}" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        {{ m.menuName|e }} <span class="caret"></span></a>
+                        {% else %}
+                            <li>
+                                <a href="{{ m.pathUrl|e }}">{{ m.menuName|e }}</a>
+                        {% endif %}
+
+                        {% if m.children is defined %}
+                            <ul class="dropdown-menu">
+                                {% for mm in m.children %}
+                                    <li>
+                                        <a href="{{ mm.pathUrl|e }}">{{ mm.menuName|e }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                {% endif %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

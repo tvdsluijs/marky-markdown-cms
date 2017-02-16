@@ -4,6 +4,9 @@
         "erusev/parsedown": "^1.6",
         "symfony/yaml": "^3.2",
         "monolog/monolog": "^1.22",
-        "twig/twig": "^1.31"
+        "twig/twig": "^1.31",
+        "silex/web-profiler": "^2.0",
+        "moust/silex-cache": "~2.0",
+        "spatie/schema-org": "^1.2"
     }
 }

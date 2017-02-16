@@ -1,0 +1,27 @@
+title: Gillette Body en Braun oor en neustrimmer in verrassingsdoos
+link: http://vandersluijs.nl/blog/2015/09/gillette-body-en-braun-oor-en-neustrimmer-in-verrassingsdoos.html
+author: tvdsluijs
+description: 
+post_id: 1259
+created: 2015/09/08 05:32:48
+created_gmt: 2015/09/08 05:32:48
+comment_status: open
+post_name: gillette-body-en-braun-oor-en-neustrimmer-in-verrassingsdoos
+status: publish
+post_type: post
+
+# Gillette Body en Braun oor en neustrimmer in verrassingsdoos
+
+Vandaag ontving ik van pleinshoppen een mooie doos. Ik wist natuurlijk al wat er in zat, maar het was toch spannend om open te maken. Dit blog post gaat meer over lifestyle maar ik dacht, ach een keertje wat lifestyle op mijn vandersluijs.nl blog kan geen kwaad. Dus hierbij de uitpakparty van Pleinshoppen  Ging toch mooi van de week mijn tripod kapot. Dus ik stond helemaal klaar om een uitpak party video te gaan maken, brak de hele bovenkant af waardoor van boven filmen niet meer te doen was. Helaas dus dit keer alleen een tekstuele uitpak party. Pleinshoppen heeft meerdere webshops waaronder [scheerplein.nl](http://www.scheerplein.nl). Alles, maar dan ook echt alles wat met scheren te maken heeft kan je op deze site vinden. Voor mannen en vrouwen, droog scheren, nat scheren, elektrisch scheren, na het scheren je vindt er echt alles. ![Gillette Body en Braun oor en neus trimmer](/blog/wp-content/uploads/2015/09/IMG_1152-1024x768.jpg) Scheerplein stuurde me zowel een Gillette Body en Braun oor en neustrimmer. Ze dachten dat ik als fitte veertiger natuurlijk ook uiterlijke verzorging nodig zou hebben die je niet met een dieet of een sport voor elkaar krijgt. 
+
+## Scheren met een Gillette
+
+![Gillette Body](/blog/wp-content/uploads/2015/09/IMG_1153-150x150.jpg)En tja, het is waar. Als je wat ouder wordt dan groeien er zo nu en dan haren op plekken die je liever niet zou hebben. Natuurlijk is het helemaal in om delen van het lichaam, buiten de snor en baard, zo glad en haarloos mogelijk te krijgen en dit kan allemaal met de [Gillette Body](http://www.scheerplein.nl/gillette/). Ik heb natuurlijk dit mannelijke lichaams scheermes onder de douche getest en ik moet zeggen dat hij heel goed zijn werk doet. Hij ligt heel goed in de hand en door de draaiende kop past hij zich inderdaad echt aan aan de vormen ![Gillette Body](http://vandersluijs.nl/blog/wp-content/uploads/2015/09/IMG_1155-150x150.jpg)van je lichaam. Ik hou zelf niet zo van enorme bossen haar onder je armen, maar ik kon me daar zonder enig probleem scheren. Het fijne was dat ik ook geen irritatie nadien had. Ik weet niet of dit kwam door de zeer scherpe mesjes of de gladde strips (lubricatiestrips) maar ik had geen gevoellige huid nadien. Ik kan me voorstellen dat wanneer je bepaalde onderdelen van je lichaam scheert, dat je dit wil doen met zo min mogelijk irritatie. Deze Gillette body voor de man is dan prima geschikt voor. 
+
+## Neus en oorharen zijn zo weg
+
+Okay, eerlijk is eerlijk maar neus/oor trimmers vind ik altijd een beetje eng. En dan het meeste bij de neus. Ik weet niet of je zelf wel eens een lange haar uit je neus hebt getrokken maar dat is geen pretje. ![Braun oor en neus trimmer](/blog/wp-content/uploads/2015/09/IMG_1154-150x150.jpg)Als ik daar dan een automaat in steek wat de haren moet scheren, bekruipt mij altijd het gevoel dat zo’n ding vast loopt of zo en in één ruk al je haren uit je neus trekt. Ik heb het er niet op. Maar goed, voor jullie heb ik het dan toch geprobeerd. Want ja…. helaas groeit na je 35 door hormoon verandering je haren in neus en oor net even wat grover (dikker en donkerder) door. De [Braun Oor en Neustrimmer](http://www.scheerplein.nl/elektrisch-scheren/trimmers/) is helemaal compleet. Er zit een batterij bij, dus je kan direct aan de slag. De handleiding heb ik gelaten voor wat het is. Ik bedoel wat kan er nou moeilijk zijn aan je neus haren scheren. En aan de achterkant van de verpakking staan de belangrijkste zaken. Zoals bijvoorbeeld dat je hem onder de kraan kunt afspoelen (het scherende gedeelte) en dat is wel zo fris. ![Braun oor en neus trimmer](http://vandersluijs.nl/blog/wp-content/uploads/2015/09/IMG_1157-150x150.jpg)Ik moet zeggen, ik heb wel even drie keer moeten slikken voor ik deze oor en neustrimmer in mijn neus stak. Maar het enige wat hij deed was een zacht ratelend geluid maken. En inderdaad nadat ik hem wat heen en weer had gehaald (rond draaiende bewegingen door mijn neus gat) zag ik verschil. De bos die in mijn neusgroeide (inclusief één witte haar) was door deze Braun neustrimmer geheel gekortwiekt. Geen prikkende haren meer die mijn neus uit dreigde te groeien. Nadat ik beide neusgaten had gedaan heb ik hem afgespoeld, wat overigens heel eenvoudig ging. 
+
+## Conclusie
+
+Ik kan beide producten ten zeerste aanraden wanneer je van je lichaamsbeharing en of neus en oorharen af wilt. Beide producten zijn niet pijnlijk bij het scheren en laten nadien geen geirriteerde huid achter. Voor de prijs hoef je het niet te laten want voor nog geen 16 euro voor de [Braun Oor en Neustrimmer](http://www.scheerplein.nl/elektrisch-scheren/trimmers/) en nog geen 8 euro voor de [Gillette Body](http://www.scheerplein.nl/gillette/) kan je er dus relatief goedkoop een stuk minder behaard uitzien. [gallery type="rectangular" ids="1268,1267,1266,1265,1264,1261,1262,1263" orderby="rand"]

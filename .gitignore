@@ -12,3 +12,5 @@ awstats/
 .htpasswd/
 .well-known
 .idea/
+public_html/themes/mobirise/
+public_html/images/*

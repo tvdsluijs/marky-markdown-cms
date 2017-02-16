@@ -398,3 +398,39 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+a.dropdown-toggle {
+  color: #000;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+  color: #000;
+  background-color: transparent;
+  background-image: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #000;
+  background-color: transparent;
+}
+.dropdown-menu {
+  border:0px;
+  background-color: transparent;
+  background-image: none;
+}
+
+.navbar-custom .nav li a:hover {
+  background-color: transparent;
+  background-image: none;
+  color: #000;
+}
+
+.dropdown-menu>li>a:hover  {
+  background-color: transparent;
+  background-image: none;
+  color: #000;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-color: transparent;
+  background-image: none;
+}

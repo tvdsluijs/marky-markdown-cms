@@ -1,0 +1,19 @@
+title: Ruwharige teckel pup Bas
+link: http://vandersluijs.nl/blog/2016/02/ruwharige-teckel-pup.html
+author: tvdsluijs
+description: 
+post_id: 2441
+created: 2016/02/22 11:00:12
+created_gmt: 2016/02/22 11:00:12
+comment_status: open
+post_name: ruwharige-teckel-pup
+status: publish
+post_type: post
+
+# Ruwharige teckel pup Bas
+
+In onze kleine dierentuin hebben we heel veel dieren. Een Jack Russel, 2 hamsters, 3 cavia's, 9 konijnen en een kat. En sinds vandaag dus ook een Ruwharige Teckel pup genaamd Bas. ![Ruwharige Teckel pup](/wp-content/uploads/2016/02/IMG_2614-240x300.jpg)Teckel is in Nederland de algemene naam voor het hondenras Dashond. In omliggende landen en ook Amerika wordt de naam Dashond veel vaker gebruikt. Oorspronkelijk werd dit ras gefokt om te jagen op dassen. Vandaar dus ook deze naam. Zo'n week of 10 geleden ging het toch weer kriebelen. Onze eerste Jack Russel is zo'n twee jaar geleden overleden en Mowgli, onze tweede Jack, lijkt toch wel een vriendje te missen. Zelf zat ik te denken aan een kleine franse bulldog, maar dat ging thuis mooi niet door. Vinden ze lelijk... tja. Echt mooi zijn ze niet maar ik vind hun hele voorkomen geweldig. Maar wat dan wel? Als snel werd het woord Teckel genoemd. Een teckel? Ja een Ruwharige Teckel. Ummm dat is toch zo'n worst op 4 poten? ![Ruwharige Teckel pup](http://vandersluijs.nl/wp-content/uploads/2016/02/IMG_2615-252x300.jpg) Dat mocht ik natuurlijk niet zeggen! Maar goed, dus op zoek naar een Ruwharige Teckel pup. En ik kan je zeggen er worden er heel veel van verkocht op marktplaats en er buiten. Hier in Zeeland hebben we een paar gerenommeerde Teckel fokkers. Maar als ik die zie, met hun foto's op beurzen en tentoonstellingen denk ik.... nou nee, dat hoeft niet voor mij. Daarnaast waren ze ook nog eens flink aan de prijs. Op internet staan weer heel veel brood fokkers. Voor 450 euro heb je al een Ruwharige Teckel pup met alles er op en er aan. Maar ik heb liever een teckel uit een liefdevol gezin die het gewoon leuk vind om zo nu en dan een nestje te hebben. En die het dus niet over fokken heeft. En die vonden we! Prachtige pups, fijn gezin die eens in de zo veel jaar een nestje had. Met ruwharige Black en Tan teckels. Met stamboom, DNA test en goede ouders. Ja... dat zag je dan ook wel terug aan de prijs. Maar goed. Als je zo'n pup vast hebt en je ziet dat het allemaal goed zit.... dan koop je er gewoon ééntje, toch? 
+
+## Ruwharige Teckel pup met stambook
+
+En vanaf vandaag hebben we dus een Ruwharige teckel met stamboom en goed gekeurde ouders en DNA test in ons huis. Zijn naam (op de stamboom) is Michelangelo, vernoemd naar Michelangelo di Lodovico Buonarroti Simoni, die weer beter bekend stond onder alleen zijn voornaam Michelangelo. Hij was een Italiaans kunstschilder, beeldhouwer, architect en dichter. Wij noemen hem Bas en ik zal hier de komende tijd wat artikelen schrijven over hoe zijn leventje bij ons in de kleine dierentuin verloopt. Daarbij komen bijvoorbeeld aan bod, hoe het zindelijk maken gaat en het leren omgaan met andere dieren. Voor het zindelijk maken heb ik de [Solution Puppy Toilet met de pads](https://ds1.nl/c/?wi=245932&si=3370&li=1161232&ws=&dl=hond%2Fhondentoilet%2Fsimple-solution-puppy-toilet%2FG37_H175_C1059_P965390%2F) ontvangen van [huisdierplein.nl](http://huisdierplein.nl). En omdat we heel graag een gezond hondje willen houden gaan we voor gezonde brokken met natuurlijke ingrediënten zoals buffel en gevogelte, eend, kip en kalkoen. Deze vonden we bij de brokken van [Yourdog Teckel Puppy](https://ds1.nl/c/?wi=245932&si=3370&li=1161232&ws=&dl=hond%2Fdroogvoer-hond%2Fyourdog-teckel-puppy%2FG37_H7_C770_P971455%2F) brokken. [FAG id=2443]

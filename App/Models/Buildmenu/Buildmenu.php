@@ -17,12 +17,20 @@ class Buildmenu
     public $menuurl = NULL;
     public $menuparent = NULL;
     public $markdownfolder = NULL;
+    public $blogslug = NULL;
+    public $blogitems = NULL;
     public $folders = array();
 
-    public function __construct($markdownfolder)
+    /**
+     * Buildmenu constructor.
+     * @param $markdownfolder
+     * @param null $blogslug
+     */
+    public function __construct($markdownfolder, $blogslug = null)
     {
         try{
-        $this->markdownfolder = $markdownfolder;
+            $this->markdownfolder = $markdownfolder;
+            $this->blogslug = $blogslug;
         }
         catch (Exception $e) {
             $this->app['monolog']->debug('unable to create the markdown variable:'.$e->getMessage());
@@ -36,14 +44,25 @@ class Buildmenu
      */
     public function readMenu(){
         try{
-            $this->menu = $this->listFolders($this->markdownfolder);
+            $menu = $this->listFolders($this->markdownfolder);
+
+            if(isset($this->blogslug) && isset($menu['blog']['children'])){
+                $this->blogitems = $menu['blog']['children'];
+                unset($menu['blog']['children']);
+            }
+            $this->menu = $menu;
         }
         catch (Exception $e) {
             $this->app['monolog']->debug('Unable to build the menu:'.$e->getMessage());
         }
     }
 
-    function listFolders($dir)
+    /**
+     * let loop thru the MD folder structure
+     * @param $dir
+     * @return array
+     */
+    public function listFolders($dir)
     {
         $dh = scandir($dir);
         $return = array();
@@ -57,8 +76,6 @@ class Buildmenu
                     }else{
                         $pathUrl = $this->pathName($folder);
                     }
-
-
 
                     $return[$pathUrl] = array(
                         'pathName' => $folder,
@@ -75,19 +92,39 @@ class Buildmenu
         return $return;
     }
 
+    /**
+     * if this is the home page menu
+     * @param $menuName
+     * @return bool
+     */
     private function isHome($menuName){
-        preg_match('/01\./s', $menuName,$matches);
-        if($matches){
-            return true;
+        try{
+            preg_match('/01\./s', $menuName,$matches);
+            if($matches){
+                return true;
+            }
+            return false;
         }
-        return false;
+        catch (Exception $e) {
+            $this->app['monolog']->debug('Unable to build home:'.$e->getMessage());
+        }
     }
 
+    /**
+     * way to get pathName slug
+     * @param $menuName
+     * @return string
+     */
     private function pathName($menuName){
-        $menuName = preg_replace('/[0-9][0-9]\./s', '', $menuName);
+        $menuName = strtolower(preg_replace('/[0-9][0-9]\./s', '', $menuName));
         return $menuName;
     }
 
+    /**
+     * lets cleanup the menu name
+     * @param $menuName
+     * @return mixed|string
+     */
     private function menuName($menuName){
         $menuName = $this->pathName($menuName);
         $menuName = str_replace('-', ' ', $menuName);

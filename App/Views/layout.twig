@@ -1,4 +1,4 @@
-{% include 'header.twig' %}
+{% include 'head.twig' %}
 <body>
 {% if sitedata.analytics is defined %}
 <script>
@@ -14,23 +14,72 @@
 
 {% include 'menu.twig' %}
 
-<!-- Page Header -->
-<!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('themes/{{ sitedata.themename }}/img/home-bg.jpg')">
+{% include 'header.twig' %}
+
+<div class="container">
+    {% block content %} {% endblock %}
+</div>
+
+<hr>
+<!-- Footer -->
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>{{ sitedata.sitename }}</h1>
-                    <hr class="small">
-                    <span class="subheading">{{ sitedata.sitesubname }}</span>
-                </div>
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; {{ sitedata.sitename | default('this site') }} {{ "now"|date("Y") }}</p>
             </div>
         </div>
     </div>
-</header>
+</footer>
 
 
-{% block content %} {% endblock %}
+<div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
+<!-- Latest compiled and minified JavaScript -->
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
 
-{% include 'footer.twig' %}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+{% if theme.js is defined %}
+    {% for j in theme.js %}
+        {{ j|raw }}
+    {% endfor %}
+{% endif %}
+
+<script type='text/javascript'>
+    {% block footerscripts %}{% endblock %}
+</script>
+
+</body>
+
+</html>

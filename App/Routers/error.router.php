@@ -12,14 +12,19 @@ $app->error(function (\Exception $e, Request $request, $code) use($app) {
     switch ($code) {
         case 404:
             $message = 'Oh oh... de pagina kon niet worden gevonden!';
-            $sitedata = $app['config']['sitedata'];
+            $params = array();
 
-            return $app['twig']->render('404.twig', array(
-                'message' => $message, 'sitedata' => $sitedata,
-            ));
+            $params['message']      = (isset($message)) ? $message : NULL;
+            $params['sitedata']     = (isset($app['config']['sitedata'])) ? $app['config']['sitedata'] : NULL;
+            $params['menu']         = (isset($app['menu'])) ? $app['menu'] : NULL;
+            $params['theme']        = (isset($app['theme'])) ? $app['theme']: NULL;
+            $params['url']        = (isset($app['url'])) ? $app['url']: NULL;
+
+            return $app['twig']->render('404.twig', $params);
             break;
         case 500:
             $message = 'We are sorry, but something went terribly wrong.'.'<br/>';
+
             $app['monolog']->debug("We've got ourselves a little problem!");
             $app['monolog']->debug("Code : {$code}");
             $app['monolog']->debug("Message :  {$e->getMessage()}");
